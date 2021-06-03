@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find Project)/launch/spawn_pi_robot.launch"/>
+    <include file="$(find Project)/launch/pi_robot_control.launch"/>
+</launch>    
